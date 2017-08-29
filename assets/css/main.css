@@ -1,0 +1,545 @@
+/*
+Colors: 
+#E54E79;
+#E56385;
+#00B2A9;
+#75726C;
+#EDE9E2
+*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+nav {
+	background-color: #E54E79;
+}
+
+.brand-logo img {
+	width: 60px;
+	margin-top: 10px;
+}
+
+.principal {
+	height: 100vh;
+	background-image: url(http://ridesharecodes.com/wp-content/uploads/2017/02/cropped-Lyft-Promo-Codes-car-1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.principal .caja-blanca {
+	background-color: rgba(237, 233, 226, 1);
+	position: absolute;
+	right: 0;
+	top: 16%;
+	box-sizing: border-box;
+	padding: 40px 60px 50px 40px;
+}
+
+.principal .caja-blanca h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #00B2A9;
+	;
+	font-size: 1.8em;
+}
+
+.principal .caja-blanca h3 {
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #75726C;
+	font-size: 1em;
+}
+
+.principal .caja-blanca .btn-big {
+	border-radius: 15px;
+	background-color: #E56385;
+	height: 45px;
+	line-height: 45px;
+}
+
+#formulario {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: white;
+}
+
+a.block {
+	display: block;
+	border-radius: 15px;
+}
+
+.h2-play {
+	background-color: #EDE9E2;
+	padding: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	color: #75726C;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.fila:before,
+.fila:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.taxi,
+.empty,
+.visitada {
+	box-sizing: border-box;
+	float: left;
+	width: 10%;
+	height: 80px;
+}
+
+.empty {
+	background-color: #75726C;
+}
+
+.taxi {
+	background-color: #E56385;
+	background-image: url(../img/car.png);
+	background-size: contain;
+	background-position: center 6px;
+	background-repeat: no-repeat;
+}
+
+.visitada {
+	background-color: #E54E79;
+}
+
+.page-footer {
+	width: 100%;
+	border-radius: 173px 14px 10px 0px;
+	-moz-border-radius: 173px 14px 10px 0px;
+	-webkit-border-radius: 173px 14px 10px 0px;
+	border: 0px solid #000000;
+}
+
+.blocke {
+	background-image: url('../img/bloque.jpg')
+}
+
+.space {
+	background-color: rgba(117, 114, 108, 0.76);
+
+}
+
+.init {
+	background-image: url(../img/bolita2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:  rgba(117, 114, 108, 0.76)!important;
+	
+}
+
+.final {
+	background-image: url(../img/casa.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:  rgba(117, 114, 108, 0.76) !important;
+}
+
+.door {
+	background-image: url(../img/puerta.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: rgba(117, 114, 108, 0.76) !important;
+}
+
+.wall {
+	background-color: #ede9e2;
+}
+
+#tablero {
+	position: relative;
+	height: auto;
+	background-color: #EDE9E2;
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	align-content: center;
+	align-items: center;
+	color: #75726C;
+	align-content: center;
+	left: -150px;
+	width: 1500px;
+	border-radius: 20px;
+}
+
+#tablero td {
+	width: 15px;
+	height: 15px;
+	border: 1px;
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.botones{
+    display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+	cursor: pointer;
+	background-image: linear-gradient(to right, rgba(0, 178, 169, 0.63) 0%, #E56385 51%, #00B2A9 100%);
+	flex: 1 1 auto;
+	padding: 20px;
+	transition: 0.8s;
+	background-size: 200% auto;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	width: 200px;
+	height: 80px;
+	font-family: 'Righteous', cursive;
+	opacity: 0.8;
+}
+
+#btnMenu {
+	width: 250px;
+	height: 80px;
+}
+.botones:hover {
+	background-position: right center; /* change the direction of the change here */
+}
+#tablero h2{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+	background-color: #E56385;
+	color: white;
+	padding: 10px;
+	opacity: 0.8;
+}
+
+#imagen {
+	position: absolute;
+	margin-left: 200px;
+	top: 29px;
+	bottom: 46px;
+}
+
+#tablero #ins {
+	border-radius: 67px 67px 67px 67px;
+	-moz-border-radius: 67px 67px 67px 67px;
+	-webkit-border-radius: 67px 67px 67px 67px;
+	border: 0px solid #000000;
+	position: relative;
+	left: 10px;
+}
+
+#divImg h3, #divImg2 h3 {
+
+	float: left; 	
+	text-align: right;
+	font-weight: bold;
+	margin-bottom: 40px;
+	/* margin-right: 800px; */
+	color: #75726C;
+	padding: 10px;
+	opacity: 0.8;
+	font-size: 30px;
+	width: 700px;
+	margin-left: 250px;
+	text-align: justify;
+}
+
+
+
+
+.container {
+	position: relative;
+}
+
+
+/*Redes Sociales*/
+
+#socialicons {
+	width: 75%;
+	margin: 0 auto;
+	overflow: auto;
+	left: 149px;
+	position: relative;
+}
+
+.socialicon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	background: #e4e4e4;
+	position: relative;
+	float: left;
+	margin: 0px 0px 10px 10px;
+}
+
+.socialiconcircle1 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	-webkit-animation: fill 2s infinite;
+	-moz-animation: fill 2s infinite;
+	animation: fill 2s infinite;
+}
+
+.socialiconcircle2 {
+	width: 94px;
+	height: 94px;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}
+
+.icons {
+	font-size: 2em;
+	position: absolute;
+	left: 33px;
+	top: 33px;
+	-webkit-animation: iconjump 2s infinite;
+	-moz-animation: iconjump 2s infinite;
+	animation: iconjump 2s infinite;
+}
+
+
+/* fill color */
+
+.dribbblecolor {
+	background: #ea4c89;
+}
+
+.facebookcolor {
+	background: #3b5998;
+}
+
+.googlecolor {
+	background: #dd4b39;
+}
+
+.flickrcolor {
+	background: #ff0084;
+}
+
+.pinterestcolor {
+	background: #c8232c;
+}
+
+.youtubecolor {
+	background: #c4302b;
+}
+
+.githubcolor {
+	background: #171515;
+}
+
+.linkedincolor {
+	background: #0e76a8;
+}
+
+.tumblrcolor {
+	background: #34526f;
+}
+
+
+/* icons color */
+
+.dribbble {
+	color: #ea4c89!important
+}
+
+.facebook {
+	color: #3b5998!important
+}
+
+.google {
+	color: #dd4b39!important
+}
+
+.flickr {
+	color: #ff0084!important
+}
+
+.pinterest {
+	color: #c8232c!important;
+}
+
+.youtube {
+	color: #c4302b!important;
+}
+
+.github {
+	color: #171515!important;
+}
+
+.linkedin {
+	color: #0e76a8!important;
+}
+
+.tumblr {
+	color: #34526f!important;
+}
+
+
+/* fill background */
+
+@-webkit-keyframes fill {
+	0% {
+		top: 100px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+@-moz-keyframes fill {
+	0% {
+		top: 100px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+@keyframes fill {
+	0% {
+		top: 100px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+
+/* jump social icons */
+
+@-webkit-keyframes iconjump {
+	0% {
+		top: 33px;
+	}
+	10% {
+		top: 70px;
+	}
+	20% {
+		top: 33px;
+	}
+	50% {
+		top: 33px;
+	}
+	90% {
+		top: 33px;
+	}
+	100% {
+		top: 33px;
+	}
+}
+
+@-moz-keyframes iconjump {
+	0% {
+		top: 33px;
+	}
+	10% {
+		top: 70px;
+	}
+	20% {
+		top: 33px;
+	}
+	50% {
+		top: 33px;
+	}
+	90% {
+		top: 33px;
+	}
+	100% {
+		top: 33px;
+	}
+}
+
+@keyframes iconjump {
+	0% {
+		top: 33px;
+	}
+	10% {
+		top: 70px;
+	}
+	20% {
+		top: 33px;
+	}
+	50% {
+		top: 33px;
+	}
+	90% {
+		top: 33px;
+	}
+	100% {
+		top: 33px;
+	}
+}
+
+#espacio {
+	top: 0px;
+	left: 219px;
+	margin-top: 72px;
+}
+
+#luisa{
+	height: 150px;
+	width: 50px;
+	display: inline;
+	margin: 0 auto;
+}
+
+#susy{
+	height: 150px;
+	width: 50px;
+	display: inline;
+	margin: 0 auto;
+}
+
+#luisa h3{
+
+	display: inline-block;
+	font-size: 20px;
+	left: 323px;
+    top: 39px;
+	position: relative;
+	font-size: 25px;
+
+}
+
+#susy h3{
+	
+	display: inline-block;
+	font-size: 20px;
+	left: 281px;
+    top: 39px;
+	position: relative;
+	font-size: 25px;
+}
+
+#banner{
+	position: relative;
+	left: 458px;
+	margin-right: 3px;
+	border-radius: 37px 37px 37px 37px;
+	-moz-border-radius: 37px 37px 37px 37px;
+	-webkit-border-radius: 37px 37px 37px 37px;
+	}
